@@ -62,19 +62,6 @@ Gestão de documentos e validações.
 
 ---
 
-## 🎓 Alunos (`/alunos`)
-
-Gerenciamento de perfis estudantis e bolsistas.
-
-| Método | Endpoint | Acesso | Descrição |
-| :--- | :--- | :--- | :--- |
-| `POST` | `/alunos` | Coordenador | Cria um perfil de aluno vinculado a um usuário. |
-| `GET` | `/alunos` | Coord/Tutor | Lista todos os alunos cadastrados. |
-| `GET` | `/alunos/tutores` | Coord/Tutor | Lista alunos que possuem papel de tutor. |
-| `GET` | `/alunos/bolsistas` | Coord/Tutor | Lista alunos que possuem papel de bolsista. |
-
----
-
 ## 📊 Relatórios e Dashboard (`/relatorios` / `/bolsistas`)
 
 Dados analíticos e visões consolidadas.
